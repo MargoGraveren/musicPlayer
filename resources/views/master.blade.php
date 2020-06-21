@@ -19,7 +19,7 @@
         <div class="music-menu text-center">
             <div class="menu">
                 <ul>
-                    <li><a href="/">Songs</a></li>
+                    <li><a href="/songs">Songs</a></li>
                     <li><a href="/albums">Albums</a></li>
                     <li><a href="/artists">Artists</a></li>
                 </ul>

@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('header')
-    <div class="title"><p>My Music</p></div>
+    <div class="title"><p>My Songs</p></div>
 @endsection
 
 @section('content')

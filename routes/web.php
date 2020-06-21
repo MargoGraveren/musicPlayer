@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::resource('/', 'SongsController');
+Route::resource('/songs', 'SongsController');
 Route::resource('/albums', 'AlbumsController');
 Route::resource('/artists', 'ArtistsController');
