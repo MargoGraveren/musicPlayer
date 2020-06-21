@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::resource('/songs', 'SongsController');
 Route::resource('/albums', 'AlbumsController');
 Route::resource('/artists', 'ArtistsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

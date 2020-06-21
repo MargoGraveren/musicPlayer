@@ -251,11 +251,15 @@ hr
     border-radius: 50%;
     background-color: #999;
     margin: 15px 13px 0 auto;
-    padding: 9px 11px;
+    padding: 10px 10px;
     cursor: pointer ;
 }
 
 .play-icon .fa-play
+{
+    background-color: #fff;
+}
+.play-icon .fa-pause
 {
     background-color: #fff;
 }
@@ -276,9 +280,10 @@ hr
 
 .music-progress .progress
 {
-    width: 0%;
+    width: 0;
     background-color: #fff;
-    animation: width 10s infinite;
+    animation: none;
+    /*animation: width 10s infinite;*/
 }
 
 @keyframes width

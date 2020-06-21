@@ -13,7 +13,7 @@
                 </div>
                 <div class="music-name">
                     <h6><a href="/albums/{{ $album->id }}">{{ $album->name }}</a></h6>
-                    <p><a href="/astists/{{ $album->artist->id }}">
+                    <p><a href="/artists/{{ $album->artist->id }}">
                             {{ $album->artist->name }}</a></p>
                 </div>
                 <i class="fa fa-ellipsis-v"></i>
