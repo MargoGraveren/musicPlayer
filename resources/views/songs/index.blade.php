@@ -6,7 +6,7 @@
 
 @section('content')
             @foreach($songs as $song)
-                <audio >
+                <audio id="mySong{{ $song->id }}">
                     <source id="myAudio{{ $song->id }}" src="mp3/{{$song->mp3_file}}">
                 </audio>
 

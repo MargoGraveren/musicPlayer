@@ -7,7 +7,7 @@
 @section('content')
     @foreach ($songs as $song)
         @if($song != null && $album->id == $song->album_id)
-            <audio>
+            <audio id="mySong{{ $song->id }}">
                 <source id="myAudio{{ $song->id }}" src="{{ URL::asset('mp3/'.$song->mp3_file) }}">
             </audio>
 

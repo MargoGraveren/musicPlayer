@@ -283,7 +283,6 @@ hr
     width: 0;
     background-color: #fff;
     animation: none;
-    /*animation: width 10s infinite;*/
 }
 
 @keyframes width
